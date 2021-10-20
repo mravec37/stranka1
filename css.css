@@ -1,0 +1,65 @@
+
+body {
+    background-color: black;
+}
+
+.carousel-item img {
+    height: 700px;
+    width:100%;
+}
+
+
+.container {
+    background-color: gray;
+}
+
+.carousel-box {
+    border:1px solid white;
+    padding:0;
+}
+
+.box-info {
+    height:600px;
+    background-color: #100C08;
+    border:1px solid white;
+}
+
+h1 {
+    color:white;
+    padding-top:50px;
+    font-size:3vw;
+}
+
+.row {
+    text-align: center;
+}
+
+p {
+    padding-top: 80px;
+    color:white;
+    width: 70%;
+    display:inline-block;
+}
+
+.container .footer-box {
+    width:100%;
+    padding:0;
+}
+
+@media (max-width: 992px) {
+    .box-info {
+        height:750px;
+    }
+}
+
+@media (max-width: 768px) {
+    .box-info {
+        height:900px;
+    }
+}
+@media (max-width: 576px) {
+    .box-info {
+        height:1100px
+    }
+}
+
